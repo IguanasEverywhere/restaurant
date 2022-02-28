@@ -1,3 +1,5 @@
+
+
 function loadHomePage() {
     let content = document.getElementById("content");
 
