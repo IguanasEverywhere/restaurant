@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Pac';
+    src: url('./Pacifico-Regular.ttf');
+  }
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('./Caveat-VariableFont_wght.ttf');
+  }
+
+h1 {
+    color: white;
+    font-family: Pac;
+    font-size: 3rem;
+}
+
+.testimonials {
+    color: white;
+    font-family: Caveat;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial1, .testimonial2, .testimonial3 {
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.mainPageBody {
+    text-align: center;
+}
+
+.navBar {
+    color: white;
+    background-color:#a4c441;
+    font-family: Caveat;
+    text-align: center;
+}
+
+.navLinks {
+    padding: 6px;
+    font-size: 1.75rem ;
+}
+
+#homeLink:hover, #menuLink:hover, #contactLink:hover {
+    color: yellow;
+}
+
+a {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.menuItems {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Caveat;
+    font-size: 2rem;
+}
+
+.menuItem {
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    margin: 20px;
+}
+
+.menuImages {
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.contactBody {
+    display: flex;
+    justify-content: center;
+}
+
+.contactInfo {
+    border: 2px solid white;
+    font-family: Caveat;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    padding:10px;
+}
+
+.contactInfoItem {
+    padding: 0;
+}
