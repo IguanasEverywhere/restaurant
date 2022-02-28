@@ -1,4 +1,4 @@
-
+import iguanaImage from './images/iguanaEating.png';
 
 function loadHomePage() {
     let content = document.getElementById("content");
@@ -16,8 +16,12 @@ function loadHomePage() {
 
     let logo = document.createElement("div");
     logo.classList.add("logo");
-    let logoImage = document.createElement("img");
-    logoImage.src = "../src/images/iguanaEating.png";
+
+    const logoImage = new Image();
+    logoImage.src = iguanaImage;
+
+    // let logoImage = document.createElement("img");
+    // logoImage.src = "../src/images/iguanaEating.png";
     logoImage.alt="iguana eating";
     logoImage.width="400";
     logoImage.height="300";
