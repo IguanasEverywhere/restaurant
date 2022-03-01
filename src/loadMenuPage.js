@@ -77,10 +77,6 @@ function loadMenuPage() {
 
 
 
-
-
-    
-
 }
 
 export { loadMenuPage };
