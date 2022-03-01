@@ -1,3 +1,8 @@
+import birchLeaves from './images/birchleaves.jpeg';
+import berries from './images/berries.jpeg';
+import dandelionFlower from './images/DandelionFlower.jpeg';
+import lavender from './images/lavender.jpeg';
+
 function loadMenuPage() {
     let content = document.getElementById("content");
 
@@ -19,9 +24,9 @@ function loadMenuPage() {
     menuItem1Text.textContent="Birch Leave Salad................$10.99";
     menuItem1.appendChild(menuItem1Text);
     menuItems.appendChild(menuItem1);
-    let birchImage = document.createElement("img");
+    const birchImage = new Image();
+    birchImage.src = birchLeaves;
     birchImage.classList.add("menuImages");
-    birchImage.src = "../src/images/birchleaves.jpeg";
     birchImage.alt="birch leaves";
     birchImage.width="150";
     birchImage.height="150";
@@ -34,9 +39,9 @@ function loadMenuPage() {
     menuItem2Text.textContent="Dandelion Platter................$12.99";
     menuItem2.appendChild(menuItem2Text);
     menuItems.appendChild(menuItem2);
-    let dandelionImage = document.createElement("img");
+    const dandelionImage = new Image();
     dandelionImage.classList.add("menuImages");
-    dandelionImage.src = "../src/images/DandelionFlower.jpeg";
+    dandelionImage.src = dandelionFlower;
     dandelionImage.alt="dandelions";
     dandelionImage.width="150";
     dandelionImage.height="150";
@@ -48,9 +53,9 @@ function loadMenuPage() {
     menuItem3Text.textContent="Lavender Surprise................$14.99";
     menuItem3.appendChild(menuItem3Text);
     menuItems.appendChild(menuItem3);
-    let lavenderImage = document.createElement("img");
+    const lavenderImage = new Image();
     lavenderImage.classList.add("menuImages");
-    lavenderImage.src = "../src/images/lavender.jpeg";
+    lavenderImage.src = lavender;
     lavenderImage.alt="lavender";
     lavenderImage.width="150";
     lavenderImage.height="150";
@@ -62,9 +67,9 @@ function loadMenuPage() {
     menuItem4Text.textContent="Berry Dessert................$6.99";
     menuItem4.appendChild(menuItem4Text);
     menuItems.appendChild(menuItem4);
-    let berriesImage = document.createElement("img");
+    const berriesImage = new Image();
     berriesImage.classList.add("menuImages");
-    berriesImage.src = "../src/images/berries.jpeg";
+    berriesImage.src = berries;
     berriesImage.alt="berries";
     berriesImage.width="150";
     berriesImage.height="150";

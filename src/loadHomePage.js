@@ -16,12 +16,8 @@ function loadHomePage() {
 
     let logo = document.createElement("div");
     logo.classList.add("logo");
-
     const logoImage = new Image();
     logoImage.src = iguanaImage;
-
-    // let logoImage = document.createElement("img");
-    // logoImage.src = "../src/images/iguanaEating.png";
     logoImage.alt="iguana eating";
     logoImage.width="400";
     logoImage.height="300";
